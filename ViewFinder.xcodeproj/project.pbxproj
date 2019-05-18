@@ -14,6 +14,7 @@
 		46B6ED59228F6DE00064B6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B6ED57228F6DE00064B6D5 /* LaunchScreen.storyboard */; };
 		46B6ED64228F6DE00064B6D5 /* ViewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B6ED63228F6DE00064B6D5 /* ViewFinderTests.swift */; };
 		46B6ED6F228F6DE00064B6D5 /* ViewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B6ED6E228F6DE00064B6D5 /* ViewFinderUITests.swift */; };
+		46B6ED7D228FB9010064B6D5 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B6ED7C228FB9010064B6D5 /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		46B6ED6A228F6DE00064B6D5 /* ViewFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B6ED6E228F6DE00064B6D5 /* ViewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderUITests.swift; sourceTree = "<group>"; };
 		46B6ED70228F6DE00064B6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B6ED7C228FB9010064B6D5 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				46B6ED4B228F6DDF0064B6D5 /* AppDelegate.swift */,
 				46B6ED4F228F6DDF0064B6D5 /* Main.storyboard */,
+				46B6ED7C228FB9010064B6D5 /* AddPhotoViewController.swift */,
 				46B6ED55228F6DE00064B6D5 /* Assets.xcassets */,
 				46B6ED57228F6DE00064B6D5 /* LaunchScreen.storyboard */,
 				46B6ED5A228F6DE00064B6D5 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B6ED54228F6DDF0064B6D5 /* ViewFinder.xcdatamodeld in Sources */,
+				46B6ED7D228FB9010064B6D5 /* AddPhotoViewController.swift in Sources */,
 				46B6ED4C228F6DDF0064B6D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

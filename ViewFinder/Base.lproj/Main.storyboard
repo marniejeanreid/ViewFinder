@@ -49,7 +49,7 @@
         <!--Add New Photo 📸-->
         <scene sceneID="Alk-Tg-YDP">
             <objects>
-                <viewController id="v8J-7h-khT" sceneMemberID="viewController">
+                <viewController id="v8J-7h-khT" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="llp-9x-6dy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,6 +60,11 @@
                                 <state key="normal" title="Camera">
                                     <color key="titleColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="AddPhoto:" destination="v8J-7h-khT" eventType="touchUpInside" id="opG-Tw-SeH"/>
+                                    <action selector="TakePhoto:" destination="llp-9x-6dy" eventType="touchUpInside" id="TtM-bl-1E2"/>
+                                    <action selector="cameraTapped:" destination="llp-9x-6dy" eventType="touchUpInside" id="6Vz-H7-v7b"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTD-zd-In7">
                                 <rect key="frame" x="181" y="120" width="52" height="30"/>
