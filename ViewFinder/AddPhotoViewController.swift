@@ -36,10 +36,12 @@ class AddPhotoViewController: UIViewController {
             present(imagePicker, animated: true, completion: nil)
         }
         
-        @IBAction func albumsTapped(_ sender: Any) {
-            imagePicker.sourceType = .savedPhotosAlbum
-            present(imagePicker, animated: true, completion: nil)
-        }
+//        @IBAction func albumsTapped(_ sender: Any) {
+//            imagePicker.sourceType = .savedPhotosAlbum
+//            present(imagePicker, animated: true, completion: nil)
+//        }
+        
+        //comment
         
         
     }
